@@ -19,6 +19,10 @@ public class ErasthotenesPrimeSieve implements PrimeSieve{
 
     @Override
     public void printPrimes() {
-
+        for(int i = 2; i < limit; i++) {
+            if(isPrime(i)) {
+                System.out.println(i);
+            }
+        }
     }
 }
