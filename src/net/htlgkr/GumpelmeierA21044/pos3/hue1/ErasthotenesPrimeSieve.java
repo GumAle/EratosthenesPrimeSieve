@@ -9,12 +9,12 @@ public class ErasthotenesPrimeSieve implements PrimeSieve{
 
     @Override
     public boolean isPrime(int p) {
-       for(int i = 2; i < p; i++) {
-           if(p % i == 0) {
-               return false;
-           }
-       }
-       return true;
+        for(int i = 2; i < p; i++) {
+            if(p % i == 0) {
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
