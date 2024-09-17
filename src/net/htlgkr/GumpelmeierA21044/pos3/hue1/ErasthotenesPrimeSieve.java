@@ -21,7 +21,7 @@ public class ErasthotenesPrimeSieve implements PrimeSieve{
     public void printPrimes() {
         for(int i = 2; i < limit; i++) {
             if(isPrime(i)) {
-                System.out.println(i + "\n");
+                System.out.println(i);
             }
         }
     }
